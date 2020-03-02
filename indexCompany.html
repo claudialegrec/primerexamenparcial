@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
 
-<link rel = "stylesheet"
+	<link rel = "stylesheet"
    type = "text/css"
    href = "Style.css" />
+
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "AnimateCSS.css" />
 
 	<meta charset="utf-8">
 	<title>Softpro | Creative Software Company</title>
@@ -19,27 +23,27 @@
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 
-		<h1 style="font-style: Roboto, sans-serif">A software company <br> &#38; Design Agency</h1>
-		<p class="animated fadeInUp">"We love the Web and the work we do. We work closely with our clients to deliver </br>the best possible solutions for their needs."</p>
+		<h1 class="animated fadeIn">A software company <br> &#38; Design Agency</h1>
+		<p>"We love the Web and the work we do. We work closely with our clients to deliver </br>the best possible solutions for their needs."</p>
 		<img src="background.jpg" height="auto" width="100%">
 	</div>
 
 	<div id="portafolio">
-		<h1>Portafolio</h1>
+		<h1 class="animated fadeInDown">Portafolio</h1>
 		<h4>Mockop</h4>
 		<p>Lorem ipsum dolor sit amet.</p>
 		<h4>Website</h4>
 		<p>loremimpsum dolor sit amet.</p>
 		<h4>iOS App</h4>
 		<p>Lorem ipsum dolor sit amet.</p>
-		<img src="mockup.jpeg" height="250px" width="250px">
-		<img src="website.jpeg" height="250px" width="250px">
-		<img src="ios.jpeg" height="250px" width="250px">
-		<img src="android.jpeg" height="250px" width="250px">
+		<img class="animated fadeInDown" src="mockup.jpeg" height="250px" width="250px">
+		<img class="animated fadeInDown delay-1s" src="website.jpeg" height="250px" width="250px">
+		<img class="animated fadeInDown delay-2s" src="ios.jpeg" height="250px" width="250px">
+		<img class="animated fadeInDown delay-3s" src="android.jpeg" height="250px" width="250px">
 	</div>
 
 	<div id="services">
-		<h1 style="font-family: Roboto, sans-serif;">Our Services</h1>
+		<h1 class="animated fadeInLeft">Our Services</h1>
 		<h4>iOS and Android app development</h4>
 		<p>Lorem ipsum dolor sit amet.</p>
 		<h4>App security</h4>
@@ -55,7 +59,7 @@
 	</div>
 
 	<div id="contact">
-		<h1>Drop us a note</h1>
+		<h1 class="animated fadeInRight">Drop us a note</h1>
 		<p>Nombre</p>
 		<textarea></textarea>
 		<p>Email Address</p>
@@ -67,6 +71,6 @@
 		<p>Send</p>
 	</div>
 
-	<p style="color: white;">Copyright 2018 & copy; Design & Developed by <a target="_blank" href="https://github.com/claudialegrec"> Claudia Alegre Castillo</a></p>
+	<p id="copyright">Copyright 2018 & copy; Design & Developed by <a target="_blank" href="https://github.com/claudialegrec"> Claudia Alegre Castillo</a></p>
 </body>
 </html>
